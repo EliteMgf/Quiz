@@ -16,21 +16,21 @@ class ViewController: UIViewController {
     let questions: [String] = [
         "What is 7+7?",
         "What is the capital of Vermont?",
-        "What is cognac made from?"
-        "What college has the best college basketball program?"
-        "Who are the star players for Duke Men's Basketball?"
-        "Who is the all time point leader for Duke Men's Basketball?"
-        "What is Duke's mascot?"
+        "What is cognac made from?",
+        "What college has the best college basketball program?",
+        "Who are the star players for Duke Men's Basketball?",
+        "Who is the all time point leader for Duke Men's Basketball?",
+        "What is Duke's mascot?",
         "How many NCAA Championships does Duke Have?"
     ]
     let answers: [String] = [
         "14",
         "Montpelier",
-        "Grapes"
-        "Duke"
-        "Zion Williamson and RJ Barrett"
-        "J.J. Redick"
-        "The Blue Devils"
+        "Grapes",
+        "Duke",
+        "Zion Williamson and RJ Barrett",
+        "J.J. Redick",
+        "The Blue Devils",
         "Five"
         
     ]
