@@ -44,17 +44,35 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="osL-ix-2C0">
+                                <rect key="frame" x="124" y="634" width="126" height="33"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="33" id="Di2-pz-0nB"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="Morgan Forester">
+                                        <attributes>
+                                            <font key="NSFont" size="17" name="MonotypeCorsiva"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="osL-ix-2C0" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="1Wh-4y-HbQ"/>
                             <constraint firstItem="MMS-T0-HoJ" firstAttribute="top" secondItem="B5h-t1-2GA" secondAttribute="bottom" constant="16" id="BFs-E2-4Hw"/>
                             <constraint firstItem="knc-PN-cpc" firstAttribute="top" secondItem="JIH-pg-ZX3" secondAttribute="bottom" constant="21" id="FR1-sV-O2R"/>
                             <constraint firstItem="JIH-pg-ZX3" firstAttribute="centerX" secondItem="knc-PN-cpc" secondAttribute="centerX" id="KiJ-04-D4z"/>
                             <constraint firstItem="MMS-T0-HoJ" firstAttribute="centerX" secondItem="knc-PN-cpc" secondAttribute="centerX" id="N1b-Nb-3Cq"/>
+                            <constraint firstItem="osL-ix-2C0" firstAttribute="centerX" secondItem="knc-PN-cpc" secondAttribute="centerX" id="PpK-dC-vaM"/>
                             <constraint firstItem="JIH-pg-ZX3" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="41" id="TON-su-VQL"/>
                             <constraint firstItem="B5h-t1-2GA" firstAttribute="top" secondItem="knc-PN-cpc" secondAttribute="bottom" constant="190" id="jt7-6Y-ec3"/>
                             <constraint firstItem="B5h-t1-2GA" firstAttribute="centerX" secondItem="knc-PN-cpc" secondAttribute="centerX" id="mlI-8t-kRL"/>
                             <constraint firstItem="knc-PN-cpc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pWZ-5m-JoW"/>
+                            <constraint firstItem="MMS-T0-HoJ" firstAttribute="centerX" secondItem="knc-PN-cpc" secondAttribute="centerX" id="rvw-Py-yRe"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -65,6 +83,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="118.29085457271366"/>
         </scene>
     </scenes>
 </document>
